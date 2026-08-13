@@ -1,31 +1,47 @@
 # GoLabsNet
 
-## Automation tools for Adobe InDesign production workflows.
+## Adobe InDesign Production Automation Tools
 
-GoLabsNet develops practical automation tools designed to eliminate repetitive tasks in Adobe InDesign production environments.
+Practical automation tools designed to eliminate repetitive tasks in Adobe InDesign production workflows.
 
-Our tools help designers, production artists, publishers, agencies, print shops and prepress teams process documents faster, reduce repetitive work and identify production issues before delivery.
+## Available Tools
+
+| Tool | What it does | GitHub | Get it |
+|---|---|---|---|
+| **Batch Image Relinker** | Recover missing image links across large InDesign projects | [Repository](https://github.com/GoLabsNet/indesign-batch-image-relinker) | [Get it →](https://golabsnet.gumroad.com/l/batch-image-relinker) |
+| **Batch Style Migrator** | Rename and synchronize styles across multiple InDesign documents | [Repository](https://github.com/GoLabsNet/indesign-batch-style-migrator) | [Get it →](https://golabsnet.gumroad.com/l/batch-style-migrator) |
+| **Batch Missing Fonts Reporter** | Detect missing and substituted fonts across InDesign projects | [Repository](https://github.com/GoLabsNet/indesign-batch-missing-fonts-reporter) | [Get it →](https://golabsnet.gumroad.com/l/batch_missing_font_reporter) |
+| **Production Preflight Checker** | Detect common production and prepress issues automatically | [Repository](https://github.com/GoLabsNet/production-preflight-checker) | [Get it →](https://golabsnet.gumroad.com/l/production-preflight-checker) |
+| **Batch Package Export** | Package multiple InDesign documents automatically | [Repository](https://github.com/GoLabsNet/indesign-batch-package-export) | [Get it →](https://golabsnet.gumroad.com/l/batch-package-export-indesign) |
+| **Batch PDF Export** | Export multiple InDesign files to PDF in one batch | [Repository](https://github.com/GoLabsNet/indesign-batch-pdf-export) | [Get it →](https://golabsnet.gumroad.com/l/batch-pdf-export-indesign) |
+| **Fix Overset Text Frames** | Detect and resize overflowing text frames automatically | [Repository](https://github.com/GoLabsNet/fix-overset-text-frames) | [Get it →](https://golabsnet.gumroad.com/l/fix-overset-text-frame) |
 
 ---
 
-# Adobe InDesign Tools
+## Find the Right Tool
+
+- [I have missing image links →](#batch-image-relinker)
+- [I need to synchronize styles →](#batch-style-migrator)
+- [I need to check fonts →](#batch-missing-fonts-reporter)
+- [I need to run a production preflight →](#production-preflight-checker)
+- [I need to package multiple documents →](#batch-package-export)
+- [I need to export multiple PDFs →](#batch-pdf-export)
+- [I need to fix overset text →](#fix-overset-text-frames)
+
+---
+
+# Tools
 
 ## Batch Image Relinker
 
-### Never relink thousands of missing images manually again.
+### Never relink missing images manually again.
 
-Automatically recover missing image links across Adobe InDesign documents and large production projects.
+When an Adobe InDesign project contains hundreds or thousands of missing image links, recovering them manually can take hours.
 
-Designed for complex situations involving:
+Batch Image Relinker automatically scans asset folders, nested subfolders and multiple InDesign documents to recover missing links, including situations involving changed file extensions.
 
-- Hundreds or thousands of missing links
-- Multiple InDesign documents
-- Nested asset folders
-- Reorganized project directories
-- Changed file extensions
-
-**→ [View the GitHub repository](https://github.com/GoLabsNet/indesign-batch-image-relinker)**  
-**→ [Get Batch Image Relinker](https://golabsnet.gumroad.com/l/batch-image-relinker)**
+**[View repository →](https://github.com/GoLabsNet/indesign-batch-image-relinker)**  
+**[Get Batch Image Relinker →](https://golabsnet.gumroad.com/l/batch-image-relinker)**
 
 ---
 
@@ -35,34 +51,23 @@ Designed for complex situations involving:
 
 Automatically rename and synchronize Paragraph, Character and Object Styles across complete Adobe InDesign projects.
 
-Useful for:
+Designed for document libraries, templates and recurring production workflows.
 
-- Document libraries
-- Publication templates
-- Recurring production workflows
-- Large collections of InDesign files
-
-Includes batch processing, style synchronization, renaming and Simulation Mode.
-
-**→ [View the GitHub repository](https://github.com/GoLabsNet/indesign-batch-style-migrator)**  
-**→ [Get Batch Style Migrator](https://golabsnet.gumroad.com/l/batch-style-migrator)**
+**[View repository →](https://github.com/GoLabsNet/indesign-batch-style-migrator)**  
+**[Get Batch Style Migrator →](https://golabsnet.gumroad.com/l/batch-style-migrator)**
 
 ---
 
 ## Batch Missing Fonts Reporter
 
-### Find missing and substituted fonts before they become production problems.
+### Find missing fonts before they become production problems.
 
-Analyze individual Adobe InDesign documents or complete project folders to identify:
+Scan individual documents or complete project folders to identify missing, unavailable and substituted fonts.
 
-- Missing fonts
-- Unavailable fonts
-- Substituted fonts
+Avoid opening files one by one just to verify whether a project is ready for delivery, packaging or production.
 
-Generate project-wide reports without opening every document manually.
-
-**→ [View the GitHub repository](https://github.com/GoLabsNet/indesign-batch-missing-fonts-reporter)**  
-**→ [Get Batch Missing Fonts Reporter](https://golabsnet.gumroad.com/l/batch_missing_font_reporter)**
+**[View repository →](https://github.com/GoLabsNet/indesign-batch-missing-fonts-reporter)**  
+**[Get Batch Missing Fonts Reporter →](https://golabsnet.gumroad.com/l/batch_missing_font_reporter)**
 
 ---
 
@@ -70,26 +75,12 @@ Generate project-wide reports without opening every document manually.
 
 ### Stop repeating the same prepress checks manually.
 
-Automatically audit Adobe InDesign documents before delivery, printing, packaging or publication.
+Automatically audit Adobe InDesign documents for common production issues before delivery, printing, packaging or publication.
 
-Detect issues including:
+Check links, fonts, overset text, image resolution, RGB graphics, bleed, document dimensions and more.
 
-- Missing links
-- Missing fonts
-- Overset text
-- Low-resolution graphics
-- RGB graphics
-- Empty image frames
-- Hidden layers
-- Non-printing objects
-- Incorrect document dimensions
-- Missing bleed
-- Invalid page count parity
-
-Analyze individual files, complete folders or multi-document publications and generate TXT and CSV reports.
-
-**→ [View the GitHub repository](https://github.com/GoLabsNet/production-preflight-checker)**  
-**→ [Get Production Preflight Checker](https://golabsnet.gumroad.com/l/production-preflight-checker)**
+**[View repository →](https://github.com/GoLabsNet/production-preflight-checker)**  
+**[Get Production Preflight Checker →](https://golabsnet.gumroad.com/l/production-preflight-checker)**
 
 ---
 
@@ -97,20 +88,12 @@ Analyze individual files, complete folders or multi-document publications and ge
 
 ### Package multiple InDesign documents in one workflow.
 
-Automatically create organized delivery packages for multiple Adobe InDesign files.
+Automatically create organized delivery packages while optionally collecting fonts and links, generating PDF and IDML files, and running production checks.
 
-Optional workflow features include:
+Designed for high-volume production and recurring delivery workflows.
 
-- Fonts and links collection
-- PDF export
-- IDML export
-- Production audit
-- Smart file filtering
-- Fail-safe batch processing
-- Detailed production reports
-
-**→ [View the GitHub repository](https://github.com/GoLabsNet/indesign-batch-package-export)**  
-**→ [Get Batch Package Export](https://golabsnet.gumroad.com/l/batch-package-export-indesign)**
+**[View repository →](https://github.com/GoLabsNet/indesign-batch-package-export)**  
+**[Get Batch Package Export →](https://golabsnet.gumroad.com/l/batch-package-export-indesign)**
 
 ---
 
@@ -118,20 +101,12 @@ Optional workflow features include:
 
 ### Stop exporting InDesign files one by one.
 
-Automatically export multiple Adobe InDesign documents using your existing PDF export presets.
+Select a folder, choose an existing Adobe PDF export preset and automatically process multiple InDesign documents.
 
-Features include:
+The tool also reports missing links, missing fonts and overset text.
 
-- Batch PDF export
-- Missing links detection
-- Missing fonts detection
-- Overset text detection
-- Fail-safe processing
-- Automatic output folder creation
-- Detailed export reports
-
-**→ [View the GitHub repository](https://github.com/GoLabsNet/indesign-batch-pdf-export)**  
-**→ [Get Batch PDF Export](https://golabsnet.gumroad.com/l/batch-pdf-export-indesign)**
+**[View repository →](https://github.com/GoLabsNet/indesign-batch-pdf-export)**  
+**[Get Batch PDF Export →](https://golabsnet.gumroad.com/l/batch-pdf-export-indesign)**
 
 ---
 
@@ -141,32 +116,34 @@ Features include:
 
 Detect overset text frames in the active Adobe InDesign document and automatically resize them vertically until hidden text becomes visible.
 
-Designed for fast production corrections while protecting locked objects and locked layers.
+Locked objects and locked layers are intentionally skipped for document safety.
 
-**→ [View the GitHub repository](https://github.com/GoLabsNet/fix-overset-text-frames)**  
-**→ [Get Fix Overset Text Frames](https://golabsnet.gumroad.com/l/fix-overset-text-frame)**
+**[View repository →](https://github.com/GoLabsNet/fix-overset-text-frames)**  
+**[Get Fix Overset Text Frames →](https://golabsnet.gumroad.com/l/fix-overset-text-frame)**
 
 ---
 
-# Built for Real Production Workflows
+# About GoLabsNet
 
-GoLabsNet tools are designed around common Adobe InDesign production problems:
+GoLabsNet develops automation tools for real Adobe InDesign production workflows.
 
-- Repetitive file-by-file operations
-- Large document collections
+The tools focus on problems that become expensive when repeated:
+
+- File-by-file processing
 - Missing assets
-- Font issues
+- Font verification
 - Overset text
+- Preflight checks
 - PDF production
 - Packaging and archiving
-- Preflight and quality control
+- Multi-document workflows
 
 The objective is simple:
 
-> Reduce repetitive production work and help teams spend more time on the work that actually requires human attention.
+> Automate repetitive production work so people can spend their time on the work that actually requires human attention.
 
 ---
 
-# Explore GoLabsNet
+## Explore All Products
 
-**[View all GoLabsNet products on Gumroad](https://golabsnet.gumroad.com/)**
+**[View all GoLabsNet tools on Gumroad →](https://golabsnet.gumroad.com/)**
